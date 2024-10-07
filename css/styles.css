@@ -1,4 +1,62 @@
-body {
+/* Remove browser styling */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+a:visited {
+    color: white;
+}
+
+.header {
     background-color: black;
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.header-link {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 24px;
+}
+
+.wbg-text-logo {
+    width: 60%;
+}
+
+body {
+    background-color: dimgray;
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    border-top: 2px solid white;
+    color: white;
+    text-align: center;
+}
+
+.footer-link {
     color: white;
 }
