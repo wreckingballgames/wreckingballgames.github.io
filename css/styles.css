@@ -26,7 +26,7 @@ a:visited {
 
 /* Only used to hold .wbg-text-logo */
 .logo-homepage-link {
-    width:60%;
+    width: 60%;
 }
 
 .header-nav ul {
@@ -42,6 +42,10 @@ a:visited {
     font-size: 24px;
 }
 
+.body-link {
+    color: white;
+}
+
 /* Nested inside .logo-homepage-link */
 .wbg-text-logo {
     width: 100%;
@@ -50,6 +54,14 @@ a:visited {
 body {
     background-color: dimgray;
     color: white;
+}
+
+p {
+    padding: 10px 0;
+}
+
+.homepage-body, .about-body, .games-body, .contact-body {
+    margin: 10px;
 }
 
 .footer {
@@ -61,6 +73,7 @@ body {
     border-top: 2px solid white;
     color: white;
     text-align: center;
+    padding: 3px;
 }
 
 .footer-link {
